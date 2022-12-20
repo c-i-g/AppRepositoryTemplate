@@ -13,7 +13,9 @@ Welcome to MyApp which is doing whatever!
 First, you will need a few tools to start working on MyApp:
 
 - `Xcode`: From the app store or wherever
+- [Homebrew](https://brew.sh): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - [Bundler](http://bundler.io): `gem install bundler`
+  - May need to be run as `sudo` 
 - [Mint](https://github.com/yonaskolb/mint): `brew install mint`
 
 Then run `make first_install` to have a valid project ready to be used.

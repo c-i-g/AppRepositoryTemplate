@@ -29,7 +29,7 @@ and `AdHoc` + their `xcconfig` files, and custom app icons
 Have a full repository setup ready to be used in a few steps:
 
 - Run `sh prepare_repository.sh {REPO_NAME} {NEW_REPO_PATH}`
-- Start working on your app!
+- `cd {NEW_REPO_PATH}`
 
 From here, you will have only to configure the project to match your need:
 
@@ -39,6 +39,8 @@ From here, you will have only to configure the project to match your need:
 - Read the new [README](https://github.com/atelier-socle/AppRepositoryTemplate/blob/master/README_future.md) to start working on your project
 - Remove targets that you won't need in the `XcodeGen` configuration: ``
 - ...
+
+Start working on your app!
 
 ## Contributions
 
