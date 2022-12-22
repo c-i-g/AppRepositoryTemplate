@@ -30,7 +30,6 @@ targets:
       - target: "MyApp_watchOS_App"
       - target: "MyApp_Notification_Service"
       - target: "MyApp_Notification_Content"
-      - carthage: Reusable
       - package: SwiftyUtils
       - package: SwiftyBeaver
       - sdk: CloudKit.framework
