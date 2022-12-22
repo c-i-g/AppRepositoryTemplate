@@ -7,7 +7,7 @@ brew_install:
 bootstrap: 
 	mint bootstrap
 	bundle install
-	mint run carthage carthage bootstrap --cache-builds
+	mint run carthage carthage bootstrap --cache-builds --use-xcframeworks
 
 xcodeproj_gen:
 	mint run xcodegen xcodegen generate
