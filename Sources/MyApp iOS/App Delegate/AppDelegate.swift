@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Firebase
+// import Firebase
 
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,7 +20,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func configureFrameworks() {
-        FirebaseApp.configure()
+        // FirebaseApp.configure()
     }
 
 }

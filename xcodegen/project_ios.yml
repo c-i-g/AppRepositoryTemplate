@@ -33,19 +33,19 @@ targets:
       - package: SwiftyUtils
       - package: SwiftyBeaver
       - sdk: CloudKit.framework
-      - sdk: Protobuf.framework
-      - sdk: GoogleToolboxForMac.framework
-      - sdk: GTMSessionFetcher.framework
-      - sdk: FirebaseABTesting.framework
-      - sdk: FirebaseRemoteConfig.framework
-      - sdk: FirebasePerformance.framework
-      - sdk: Firebase.framework
-      - sdk: FirebaseAnalytics.framework
-      - sdk: FirebaseCore.framework
-      - sdk: FirebaseInstanceID.framework
-      - sdk: GoogleAppMeasurement.framework
-      - sdk: GoogleUtilities.framework
-      - sdk: nanopb.framework
+      # - sdk: Protobuf.framework
+      # - sdk: GoogleToolboxForMac.framework
+      # - sdk: GTMSessionFetcher.framework
+      # - sdk: FirebaseABTesting.framework
+      # - sdk: FirebaseRemoteConfig.framework
+      # - sdk: FirebasePerformance.framework
+      # - sdk: Firebase.framework
+      # - sdk: FirebaseAnalytics.framework
+      # - sdk: FirebaseCore.framework
+      # - sdk: FirebaseInstanceID.framework
+      # - sdk: GoogleAppMeasurement.framework
+      # - sdk: GoogleUtilities.framework
+      # - sdk: nanopb.framework
       # waiting for 4.1.0
       # - package: Reusable
 
