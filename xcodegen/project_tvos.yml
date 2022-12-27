@@ -45,7 +45,7 @@ targets:
     # scripts
     postCompileScripts:
       # swiftlint
-      - script: mint run swiftlint swiftlint --config .swiftlint.yml
+      - script: sh scripts/xcode/linting.sh
         name: ⚠️ Swiftlint
 
   # -----------
@@ -65,5 +65,5 @@ targets:
     # scripts
     postCompileScripts:
       # swiftlint
-      - script: mint run swiftlint swiftlint --config .swiftlint.yml
-        name: Swiftlint
+      - script: sh scripts/xcode/linting.sh
+        name: ⚠️ Swiftlint
